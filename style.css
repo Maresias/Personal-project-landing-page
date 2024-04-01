@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+main{
+    display: grid;
+    height: 100vh;
+    background-color: rebeccapurple;
+    gap: 5rem;
+    grid-template-areas: 
+        "s-1" "s-3" "s-5" "s-6"
+        "s-2" "s-3" "s-5" "s-6"
+        "s-2" "s-4" "s-7" "s-7"
+    ;
+
+    gap: 2rem;
+}
+
+div{
+    border: 2px solid red;
+    border-radius: 2rem ;
+    padding:5rem;
+}
+
+.s-1 {
+    grid-area: s-1;
+
+}
+.s-2{
+    grid-area: s-2;
+
+}
+
+.s-3{
+    grid-area: s-3;
+
+}
+
+.s-4{
+    grid-area: s-4;
+
+}
+
+.s-5{
+    grid-area: s-5;
+
+}
+
+.s-6{
+    grid-area: s-6;
+
+}
+
+.s-7{
+    grid-area: s-7;
+}
