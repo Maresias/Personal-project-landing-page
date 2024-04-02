@@ -156,6 +156,9 @@ main > div{
     font-size: 4rem;
     margin-bottom: 2rem;
 }
+.box-6-text p{
+    line-height: 3rem;
+}
 .s-7{
     grid-area: s-7;
     grid-column: 5/6;
