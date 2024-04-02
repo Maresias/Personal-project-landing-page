@@ -144,6 +144,8 @@ main > div{
     grid-row: 3/6;
     background-color: rgb(243, 238, 238);
 
+    padding: 2rem;
+
 }
 
 .s-7{
