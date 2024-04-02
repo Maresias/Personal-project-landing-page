@@ -146,6 +146,10 @@ main > div{
 
     padding: 2rem;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .box-6-text{
@@ -158,6 +162,11 @@ main > div{
 }
 .box-6-text p{
     line-height: 3rem;
+}
+
+.box-6-preco{
+    padding-right: 4rem;
+    font-size: 7rem;
 }
 .s-7{
     grid-area: s-7;
