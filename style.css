@@ -148,6 +148,14 @@ main > div{
 
 }
 
+.box-6-text{
+    max-width: 400px;
+    font-size: 1.8rem;
+}
+.box-6-text h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
 .s-7{
     grid-area: s-7;
     grid-column: 5/6;
